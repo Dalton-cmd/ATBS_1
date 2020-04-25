@@ -1,4 +1,5 @@
 #basic RegEx function to find a phone number
+#highly inefficient and does NOT utilize the RegEx functionality
 def isPhoneNumber(text):
     if len(text) != 12:                                                         #Checks that the input is at least 12 characters long
         return False
