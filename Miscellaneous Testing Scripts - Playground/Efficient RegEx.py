@@ -1,4 +1,3 @@
-import matplotlib as mpl
 import re
 
 message = 'Call me at 555-555-5555 tomorrow or at 555-555-5555'
