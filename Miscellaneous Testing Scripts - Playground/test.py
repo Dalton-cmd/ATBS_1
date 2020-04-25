@@ -1,4 +1,6 @@
 import numpy as np
 import pandas as pd
 
-pd.DataFrame = [] 
+df = pd.DataFrame = []
+
+print(df)
