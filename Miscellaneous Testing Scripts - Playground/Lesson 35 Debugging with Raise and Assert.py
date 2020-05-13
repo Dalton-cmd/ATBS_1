@@ -11,7 +11,7 @@
 '''
 
 import traceback
-assert False, 'This is the error message'
+assert False, 'This is the error message'  #prints an asserted error
 
 ### This function will print an error log to a new text file within the cwd
 """
