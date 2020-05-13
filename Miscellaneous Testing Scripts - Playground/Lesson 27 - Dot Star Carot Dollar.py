@@ -57,9 +57,18 @@ mo = dotStar.search(prime)
 print(mo)
 
 vowelRegex = re.compile(r'[aeiou]')
-mo = vowelRegex.search('Al, why does your programming book talk about robocops so much?')
-print(mo)
-
-vowelRegex = re.compile(r'[aeiou]', re.I)
 mo = vowelRegex.findall('Al, why does your programming book talk about robocops so much?')
 print(mo)
+
+vowelRegex = re.compile(r'[aeiou]', re.I)                                       #re.I will ignore case. Now we (using .findall) will find the "A"
+mo = vowelRegex.findall('Al, why does your programming book talk about robocops so much?')
+print(mo)
+
+### Summary Notes:
+## The ^ means the string must start with the pattern, $ means the string must
+#    end with the pattern. both means the ENTIRE string must match the pattern.
+## The . dot can be used as a wildcard; it matched anything excep newlines.
+## Pass re.DOTALL as the second argument to re.compile() in order to make
+#    the . dot match newlines (\n) as well
+## Pass re.I as the second argument to re.compile() to make the matching set to
+#    Case INSENSITIVE

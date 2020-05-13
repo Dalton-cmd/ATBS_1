@@ -31,4 +31,4 @@ re.compile(r'''
 \d\d\d          # first 3 digits
 -               # second dash
 \d\d\d\d        # last 4 digits
-''', re.DOTALL)
+''', re.IGNORECASE | re.DOTALL | re.VERBOSE)                                    #bitwise operator "|" is used (only) within the RegEx function to use multiple options

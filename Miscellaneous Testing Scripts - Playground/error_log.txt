@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\Dalton\Desktop\Python Projects\github\ATBS_1\Miscellaneous Testing Scripts - Playground\Lesson 35 Debugging with Raise and Assert.py", line 14, in <module>
+    raise Exception('This is an error message')
+Exception: This is an error message
+Traceback (most recent call last):
+  File "C:\Users\Dalton\Desktop\Python Projects\github\ATBS_1\Miscellaneous Testing Scripts - Playground\Lesson 35 Debugging with Raise and Assert.py", line 14, in <module>
+    raise Exception('This is an error message')
+Exception: This is an error message
+Traceback (most recent call last):
+  File "C:\Users\Dalton\Desktop\Python Projects\github\ATBS_1\Miscellaneous Testing Scripts - Playground\Lesson 35 Debugging with Raise and Assert.py", line 14, in <module>
+    raise Exception('This is an error message')
+Exception: This is an error message
